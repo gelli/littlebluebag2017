@@ -1,7 +1,7 @@
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const path = require('path');
+import ExtractTextPlugin from 'extract-text-webpack-plugin';
+import path from 'path';
 
-module.exports = {
+export default {
   entry: {
     main: ['./src/js/main.js', './src/css/main.scss'],
   },
